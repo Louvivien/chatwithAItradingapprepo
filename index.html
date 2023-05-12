@@ -34,8 +34,7 @@
 
 </head>
 
-<body class="">
-    <!-- <body class="loading"> -->
+<body class="loading">
     <div id="__next">
         <div class="bg-black">
             <main id="skip">
@@ -100,6 +99,30 @@
     </div>
     <script id="__NEXT_DATA__"
         type="application/json">{"props":{"pageProps":{"companyData":{"company_id":825,"name":"z_aitradingbo_1296","pricing_plan_id":29,"playground_type":"button","is_white_label":false,"display_name":"AI-Trading-Bo"},"apiKey":"7a95a673-fa18-49d4-bd17-fce9851fcb39","project":{"id":1072,"created_at":"2023-05-12T11:20:16.402981+00:00","name":"Chat with AI Trading app","company_id":825,"support_url":"","display_id":"fd660096-cd6b-483c-9af8-cc27629b2f69","prompt_id":1,"isFaqPublic":true}},"__N_SSP":true},"page":"/mendable_project/[projectID]","query":{"projectID":"fd660096-cd6b-483c-9af8-cc27629b2f69"},"buildId":"nClXQD8MoiOAyP4LRbtEa","isFallback":false,"gssp":true,"scriptLoader":[]}</script>
+        <script>
+            window.onload = function() {
+                var contentDiv = document.createElement('div');
+                contentDiv.innerHTML = `
+                    <h3 class="text-3xl text-center text-black "> 
+                        <span class="font-bold text-black uppercase">Chat with AI Trading app</span>.
+                    </h3>
+                    <h3 class="text-xl text-center text-black "> 
+                        Press <span class="font-bold text-black uppercase tracking-wider">CMD/CTRL + K</span> 
+                        to get started or click the button on the bottom right.
+                    </h3>
+                    <a class="inline-flex px-2 py-1 items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900 mr-2 mt-4 cursor-pointer"
+                        href="https://github.com/Louvivien/tradingapp">
+                        <span class="">Ready to code?</span>
+                    </a>
+                    <br>
+                    <a class="inline-flex px-2 py-1 items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900 mr-2 mt-4 cursor-pointer"
+                        href="https://lablab.ai/event/ai-startup-hackathon-episode-3/ai-traders">
+                        <span class="">Join the team!</span>
+                    </a>`;
+                document.body.appendChild(contentDiv);
+            }
+        </script>
+        
 </body>
 
 </html>
